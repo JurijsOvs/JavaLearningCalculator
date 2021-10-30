@@ -2,8 +2,8 @@ package carpet;
 
 public class Calculator {
 
-    public Floor floor;
-    public Carpet carpet;
+    private Floor floor;
+    private Carpet carpet;
 
     public Calculator(Floor floor, Carpet carpet) {
         this.floor = floor;

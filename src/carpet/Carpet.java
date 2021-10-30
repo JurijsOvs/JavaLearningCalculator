@@ -2,14 +2,16 @@ package carpet;
 
 public class Carpet {
 
-    public double cost;
+    private double cost;
 
     public Carpet(double cost) {
-        if(cost < 0){
+/*        if(cost < 0){
             this.cost = 0;
         }else {
             this.cost = cost;
-        }
+        }*/
+        this.cost = (cost < 0) ? 0 :  cost;
+
     }
 
     public double getCost() {
